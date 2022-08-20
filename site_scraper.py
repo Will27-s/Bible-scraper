@@ -93,7 +93,9 @@ def get_bible_verses(bookName,books, NoOfChapters, version_id):
 
             keychap += 1
         keybook += 1
-
+    
+   
+    
     return bible_verses          
                 
                 
@@ -115,6 +117,8 @@ def store_bible_verses():
 store_books_file(books, bookName, testament, version_id)
 store_bible_verses()
 
+print("Script has finished running")
+print(f"The {version_name} Bible version has been completed and is stored in a .csv")
 
 
 
